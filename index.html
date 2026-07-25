@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bottle Flip Challenge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+  <div id="hud">
+    <div id="level-display">Level: 1</div>
+    <div id="map-display">Map: Kitchen Counter</div>
+    <div id="attempts">Attempts: 0</div>
+    <div id="score">Score: 0</div>
+  </div>
+  <canvas id="gameCanvas" width="800" height="500"></canvas>
+  <div id="controls">
+    <button id="flipBtn">FLIP!</button>
+    <button id="resetBtn">Reset Level</button>
+    <select id="mapSelect">
+      <option value="0">Kitchen Counter</option>
+      <option value="1">Office Desk</option>
+      <option value="2">Skate Park</option>
+      <option value="3">Rooftop</option>
+      <option value="4">Moving Truck</option>
+    </select>
+  </div>
+  <div id="message"></div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

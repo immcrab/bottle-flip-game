@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: linear-gradient(#87CEEB, #e0f7fa);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #222;
+}
+#game-container {
+  margin-top: 20px;
+  text-align: center;
+}
+#hud {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: rgba(255,255,255,0.7);
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+canvas {
+  background: #dff0ff;
+  border: 4px solid #333;
+  border-radius: 8px;
+}
+#controls {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6f3c;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: #e85a2a;
+}
+select {
+  padding: 8px;
+  border-radius: 6px;
+}
+#message {
+  margin-top: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 28px;
+}
